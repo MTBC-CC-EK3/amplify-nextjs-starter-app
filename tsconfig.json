@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,18 +22,46 @@
       }
     ],
     "paths": {
-      "shadcn": ["./src/components/shadcn"],
-      "component": ["./src/components"],
-      "utils": ["./src/utils"],
-      "screens": ["./src/screens"],
-      "types": ["./src/types"],
-      "layouts": ["./src/layouts"],
-      "contexts": ["./src/contexts"],
-      "hooks": ["./src/hooks"],
-      "queries": ["./src/queries"],
-      "mutations": ["./src/mutations"]
+      "shadcn": [
+        "./src/components/shadcn"
+      ],
+      "component": [
+        "./src/components"
+      ],
+      "utils": [
+        "./src/utils"
+      ],
+      "screens": [
+        "./src/screens"
+      ],
+      "types": [
+        "./src/types"
+      ],
+      "layouts": [
+        "./src/layouts"
+      ],
+      "contexts": [
+        "./src/contexts"
+      ],
+      "hooks": [
+        "./src/hooks"
+      ],
+      "queries": [
+        "./src/queries"
+      ],
+      "mutations": [
+        "./src/mutations"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "build/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

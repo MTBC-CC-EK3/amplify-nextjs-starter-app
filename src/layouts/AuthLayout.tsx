@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Grid, GridItem, Container, Header, Flex, FlexItem } from "component";
 
