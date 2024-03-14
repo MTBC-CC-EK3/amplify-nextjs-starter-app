@@ -4,6 +4,7 @@ amplifyconfiguration*
 
 # node modules
 node_modules
+build
 
 # next generated files
 .next
