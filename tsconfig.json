@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -19,7 +18,16 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "shadcn": ["./src/components/shadcn"],
+      "component": ["./src/components"],
+      "utils": ["./src/utils"],
+      "screens": ["./src/screens"],
+      "types": ["./src/types"],
+      "layouts": ["./src/layouts"],
+      "contexts": ["./src/contexts"],
+      "hooks": ["./src/hooks"],
+      "queries": ["./src/queries"],
+      "mutations": ["./src/mutations"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
