@@ -3,14 +3,14 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - yarn install --frozen-lockfile
     build:
       commands:
-        - npm run build
+        - yarn run build
   artifacts:
     baseDirectory: .next
     files:
       - '**/*'
   cache:
-    paths:
-      - node_modules/**/*
+    #paths:
+     # - node_modules/**/*
