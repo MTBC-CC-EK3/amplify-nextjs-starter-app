@@ -8,7 +8,7 @@ frontend:
       commands:
         - yarn 
   artifacts:
-    baseDirectory: .build
+    baseDirectory: .src
     files:
       - '**/*'
   cache:
