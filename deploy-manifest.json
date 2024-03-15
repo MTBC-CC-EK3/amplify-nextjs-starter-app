@@ -1,0 +1,7 @@
+type DeployManifest = {
+  version: 1;
+  routes: Route[];
+  computeResources?: ComputeResource[];
+  imageSettings?: ImageSettings;
+  framework: FrameworkMetadata;
+};
